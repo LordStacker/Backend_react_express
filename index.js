@@ -40,6 +40,6 @@ app
     //POST endpoint
     .post(addUser)    
 //Start server
-app.listen(process.env.PORT || 3000, () => {
+app.listen(process.env.PORT || 3002, () => {
     console.log(`Server listening`)
   })
