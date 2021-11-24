@@ -9,7 +9,7 @@ const app = express()
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: true }))
 app.use(cors())
-
+//reading method/ metodo de lectura de usuarios
 const getUser = (request, response) => {
     pool.query('SELECT * FROM users', (error, results) =>{
         if (error){
@@ -18,7 +18,7 @@ const getUser = (request, response) => {
         response.status(200).json(results.rows);
     });
 }
-
+//Add method/metodo de agregado
 const addUser = (request, response) => {
     const { names, age, birth } = request.body
 
@@ -39,7 +39,7 @@ app
     .get(getUser)
     //POST endpoint
     .post(addUser)    
-//Start server
+//Start server//Iniciar servidor
 app.listen(process.env.PORT || 3002, () => {
     console.log(`Server listening`)
   })
