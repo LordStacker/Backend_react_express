@@ -39,7 +39,7 @@ app
     .get(getUser)
     //POST endpoint
     .post(addUser)    
-//Start server//Iniciar servidor
+//Start server//Iniciar servidor en puerto
 app.listen(process.env.PORT || 3002, () => {
     console.log(`Server listening`)
   })
