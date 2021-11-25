@@ -59,8 +59,13 @@ Todos estos valores varian segun usuario sustituyendose respectivamente con los 
 
 Teniendo la configuracion inicial y generando el codigo para poder hacer dichas consultas GET y POST
 
-### GET    /users
-### POST   /users
+### Request
+
+`POST /users`
+
+### Request
+
+`GET /users`
 
 
 Procedemos a revisar y efectuar los siguientes comandos:
