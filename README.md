@@ -69,6 +69,8 @@ Teniendo la configuracion inicial y generando el codigo para poder hacer dichas 
 
 `GET /users`
 
+  `Metodo get para traer los valores completos de la tabla`
+
 
 Procedemos a revisar y efectuar los siguientes comandos:
 **npm install (en caso de clonacion para instalar dependencias adyacentes en el)
@@ -138,6 +140,18 @@ What is to restart the server in case of any change in code
 All these values ​​vary according to the user, being substituted respectively with the values ​​that they possess in case of being different from the user.
 
 Having the initial configuration and generating the code to be able to make said GET and POST queries
+
+### Request
+
+`POST / users`
+  
+   `Post method entering the 3 values, with the following formats, NAMES> Varchar / String, AGE> integer and birth> Date and obtaining a 'succeed' response`
+
+### Request
+
+`GET / users`
+
+   `Get method to fetch full values from table`
 
 We proceed to review and carry out the following commands:
 ** npm install (in case of cloning to install adjacent dependencies on it)
