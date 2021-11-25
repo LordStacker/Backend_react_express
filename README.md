@@ -59,6 +59,10 @@ Todos estos valores varian segun usuario sustituyendose respectivamente con los 
 
 Teniendo la configuracion inicial y generando el codigo para poder hacer dichas consultas GET y POST
 
+### GET    /users
+### POST   /users
+
+
 Procedemos a revisar y efectuar los siguientes comandos:
 **npm install (en caso de clonacion para instalar dependencias adyacentes en el)
 **npm start para inciar el uso del servidor.
