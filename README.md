@@ -62,7 +62,7 @@ Teniendo la configuracion inicial y generando el codigo para poder hacer dichas 
 ### Request
 
 `POST /users`
-  curl Metodo post ingresando los 3 valores, con los siguientes formatos, NAMES > Varchar/String , AGE > integer y birth > Date y obteniendo una respuesta 'succeed'
+  `Metodo post ingresando los 3 valores, con los siguientes formatos, NAMES > Varchar/String , AGE > integer y birth > Date y obteniendo una respuesta 'succeed'`
 
 ### Request
 
